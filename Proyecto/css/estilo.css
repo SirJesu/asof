@@ -147,13 +147,22 @@ a:hover{
 	font-weight: 600;
 }
 
-section{
+.margin{
 	padding:40px;
 }
 
 section p{
 	text-align: justify;
 	margin-top: 10px;
+}
+
+section{
+	margin: 0px;
+	border:0px;
+}
+
+img{
+	margin: 0px;
 }
 
 .pagina{
@@ -207,4 +216,10 @@ li:hover{
 	text-decoration:underline;
 	font-size: 1.5rem;
 	color: #fff !important;
+}
+
+
+footer{
+	background-color: #242423;
+	border:0px;
 }
