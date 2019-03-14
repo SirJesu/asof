@@ -151,7 +151,7 @@ a:hover{
 	padding:40px;
 }
 
-section p{
+section .texto{
 	text-align: justify;
 	margin-top: 10px;
 }
@@ -202,24 +202,108 @@ img{
 li{
 	transition: 0.3s all ease-in-out;
 	margin: 20px;
-
+	filter: opacity(70%);
 }
 
 li:hover{
 	transition: 0.3s all ease-in-out;
 	font-size: 1.5rem;
 
-	text-decoration:underline;
+	/*text-decoration:underline;*/
+	filter: opacity(100%);
+
+	text-shadow: 2px 2px #fff;
 }
 
 .active{
-	text-decoration:underline;
+	/*text-decoration:underline;*/
 	font-size: 1.5rem;
 	color: #fff !important;
+	filter: opacity(100%);
 }
 
+.item_nav{
+	color: 
+}
 
 footer{
 	background-color: #242423;
 	border:0px;
+}
+
+
+
+/*iconos de redes*/
+.social_bar{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.circulo{
+	transition: 0.6s;
+	width: 35px;
+	height: 35px;
+	background-color: #ff8b00;
+	border-radius: 100%;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.circulo:hover{
+	transition: 0.3s;
+	background-color: #fff;
+}
+
+.circulo i{
+	margin-top: 8px;
+	font-size: 18px;
+}
+
+#titulo_aso{
+	font-size: 1.3rem;
+}
+
+.copy{
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+.mensaje{
+	background-color: black;
+	
+	background-image: url("https://cdn.jetsemani.com/wp-content/uploads/2019/01/20181112-636775961843709084.jpg");
+	background-size: cover;
+	background-position: center;
+
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+.mensaje span{
+	font-style: italic;
+	font-size: 12px;
+}
+.mensaje_texto{
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	padding: 20px;
+	color: #fff;
+
+	
+}
+
+.contenedor_negro{
+	width: 100%;
+	height: 100%;
+	display: block;
+	box-sizing: border-box;
+	background-color: black;
+
 }
